@@ -29,7 +29,7 @@ All required PCBs are located in [this PCB folder](pcb).
 ## Motor PID
 To be updated.
 
-## Sesor calibration
+## Sensor calibration
 After constructing the robot, the line detecting sensor module needs to be calibrated. This MAX-MIN values of each sensor are obtained and set in [the main code](code/A32-MasterMCU.ino).
 
 ## Uploading the code
