@@ -1,0 +1,18 @@
+function error = Sensor(x,y,theta)
+    % Robot paremeter
+    L = 200;
+    L_sensor = 140;
+
+    % Find intersections
+    [X,Y] = Path_create;
+    sensor_p = [x - L*cos(theta), y + L*sin(theta)];
+    X_sensor = linspace(sensor_p(1) + (L_sensor/2)*cos(theta+pi/2), sensor_p(1) + (L_sensor/2)*cos(theta-pi/2), size(X,2));
+    Y_sensor = linspace(sensor_p(2) + (L_sensor/2)*sin(theta+pi/2), sensor_p(2) + (L_sensor/2)*sin(theta-pi/2), size(Y,2));
+    P = InterX([X;Y],[X_sensor;Y_sensor]);
+    %plot([x+(L_sensor/2)*cos(theta+pi/2),x+(L_sensor/2)*cos(theta-pi/2)],[y+(L_sensor/2)*sin(theta+pi/2),y+(L_sensor/2)*sin(theta-pi/2)],'r',[x x+199*cos(theta)],[y y+199*sin(theta)],'r',X_sensor,Y_sensor,'r',X,Y,'b');
+    %drawnow
+    error_real = sqrt((sensor_p(1) - P(1))^2 + (sensor_p(2) - P(2))^2);
+    error = error_real*sign((sensor_p(1) - P(1))*(sensor_p(1) + (L_sensor/2)*sin(theta)-P(1)));
+
+    
+end

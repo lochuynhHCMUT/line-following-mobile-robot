@@ -1,0 +1,135 @@
+{
+  "uuid": "4ec47663089eb0ada8007d6b9f655204",
+  "path": "Offline/TCRT5000_module",
+  "name": "TCRT5000_module",
+  "content": "",
+  "created_at": "2022-10-31 10:53:37",
+  "updated_at": "2022-11-29 23:51:27",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "65cde5d9b0fb7d4f231647036835757f",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "14ea665c802c13959814aa48705bbc49": 7,
+        "bb009484ef804a24ac5d18c54b249586": 14,
+        "24e45360a75d4413b40d4dad1a13508a": 1,
+        "2938625de5210069302478d984714004": 7
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          7,
+          "CAP-TH_L5.0-W2.5-P2.54-D0.7",
+          "C1,C2,C3,C4,C5,C6,C7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "CS1F5.6Y5V1A104Z",
+            "BOM_Supplier Part": "C9306",
+            "puuid": "a894e235a7cc484b98d785ff0fe199b0",
+            "uuid": "2938625de5210069302478d984714004"
+          }
+        ],
+        [
+          "TCRT5000L",
+          7,
+          "OPTO-TH_TCRT5000L",
+          "CGQ1,CGQ2,CGQ3,CGQ4,CGQ5,CGQ6,CGQ7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "TCRT5000L",
+            "BOM_Supplier Part": "C24085",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ac0b84c6aa02422d945bf3c6222be6bb",
+            "uuid": "14ea665c802c13959814aa48705bbc49"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x9",
+          1,
+          "HDR-M-2.54_1X9",
+          "J1",
+          {
+            "BOM_Supplier Part": "C225484",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "af1184eb33cb4ad59b43849943842bf8",
+            "uuid": "24e45360a75d4413b40d4dad1a13508a"
+          }
+        ],
+        [
+          "4k7",
+          7,
+          "R0603",
+          "R1,R3,R5,R7,R9,R11,R13",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "220",
+          7,
+          "R0603",
+          "R2,R4,R6,R8,R10,R12,R14",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ]
+      ],
+      "updateTime": 1669735722,
+      "createTime": 1667188418,
+      "histories": [],
+      "created_at": "2022-10-31 10:53:38",
+      "updated_at": "2022-11-29 22:28:42"
+    },
+    {
+      "uuid": "712b469f320c37e4bb159aba1a078967",
+      "puuid": "4ec47663089eb0ada8007d6b9f655204",
+      "title": "sensor_PCB",
+      "filename": "sensor_PCB.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ac0b84c6aa02422d945bf3c6222be6bb": 7,
+        "398691f1f785460098bbe5ee6590333c": 14,
+        "af1184eb33cb4ad59b43849943842bf8": 1,
+        "a894e235a7cc484b98d785ff0fe199b0": 7
+      },
+      "BOM": [],
+      "updateTime": 1669740687,
+      "createTime": 1667875427,
+      "histories": [],
+      "created_at": "2022-11-08 09:43:47",
+      "updated_at": "2022-11-29 23:51:27"
+    }
+  ],
+  "sort": [],
+  "title": "TCRT5000_module",
+  "foldername": "TCRT5000_module",
+  "schfilename": "TCRT5000_module.json",
+  "schfilemtime": 1669735722306
+}
