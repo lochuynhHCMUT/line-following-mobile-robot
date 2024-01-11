@@ -14,7 +14,7 @@ The sequence of operation is as follow:
 
 The robot can be seen working in [this video](https://youtu.be/HqmgRXV4fzo?si=YYQn4gw1GglHw1m8).
 
-<!-- <img src="robot.png"> -->
+<img src="pics/test-run.gif">
 
 ## Building the robot
 The robot is built by following [this assembly drawing](ME4071_Mechanical_Assembly_drawing_HuynhBaLoc_NguyenHoangMinh_PhanDangKhoiNguyen_TruongAnQuoc.pdf).
@@ -24,7 +24,7 @@ The robot is built by following [this assembly drawing](ME4071_Mechanical_Assemb
 ## PCB
 All required PCBs are located in [this PCB folder](pcb).
 
-<!-- <img src="sensor-module.png" width=350> <img src="main.png" width=350> -->
+<img src="pics/sensor-module.png" height=200> <img src="pics/main.png" height=200>
 
 ## Motor PID
 To be updated.
